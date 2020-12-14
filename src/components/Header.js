@@ -19,7 +19,7 @@ export default function Header () {
 
     const lushakLogo = (
         <Typography variant='h6' component='h1' className={logo}>
-            Lushak
+           Lushak
         </Typography>
     );
 

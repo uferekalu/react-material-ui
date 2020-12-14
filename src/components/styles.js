@@ -17,6 +17,14 @@ export const useStyles = makeStyles(() => ({
         fontWeight: 700,
         size: '18px',
         marginLeft: '36px',
+        background: 'transparent',
+        border: '1px solid white',
+        '&:hover': {
+            background: 'gray',
+            transition: '0.5s ease-in',
+            transform: 'scale(.9)',
+            color: 'skyblue',
+        },
     },
     toolbar: {
         display: 'flex',
