@@ -5,6 +5,9 @@ export const useStyles = makeStyles(() => ({
         backgroundColor: 'black',
         paddingRight: '79px',
         paddingLeft: '118px',
+        '@media (max-width: 900px)': {
+            paddingLeft: 0,
+        },
     },
     logo: {
         fontFamily: 'Work Sans, sans-serif',
@@ -30,4 +33,7 @@ export const useStyles = makeStyles(() => ({
         display: 'flex',
         justifyContent: 'space-between'
     },
+    drawerContainer: {
+        padding: "20px 30px",
+      },
 }));
